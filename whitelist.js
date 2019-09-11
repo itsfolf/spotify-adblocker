@@ -20,4 +20,6 @@ module.exports = [
   "t.scdn.co", // background images
   "thisis-images.scdn.co", // 'this is' playlists images
   "video-fa.scdn.co", // videos
+  "platform-lookaside.fbsbx.com", // facebook profile pics
+  "scontent.xx.fbcdn.net", // facebook profile pics
 ];
