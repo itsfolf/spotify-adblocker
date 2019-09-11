@@ -1,0 +1,1 @@
+return require('./src/spotify-adblock-windows');
