@@ -22,4 +22,6 @@ module.exports = [
   "video-fa.scdn.co", // videos
   "platform-lookaside.fbsbx.com", // facebook profile pics
   "scontent.xx.fbcdn.net", // facebook profile pics
+  "login5.spotify.com", //checking login before playing music
+  "login4.spotify.com", //checking login before playing music
 ];
