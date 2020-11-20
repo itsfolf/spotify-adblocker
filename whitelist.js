@@ -1,5 +1,5 @@
 module.exports = [
-    "localhost", // for using local proxies 
+    "localhost", // local proxies
     "audio-sp-*.pscdn.co", // audio
     "audio-fa.scdn.co", // audio
     "audio4-fa.scdn.co", // audio
@@ -21,6 +21,8 @@ module.exports = [
     "video-fa.scdn.co", // videos
     "content.production.cdn.art19.com", // podcasts
     "rss.art19.com", // podcasts
+    "*.buzzsprout.com", // podcasts
+    "platform-lookaside.fbsbx.com", // Facebook profile images
     "hwcdn.libsyn.com", // podcasts
     "traffic.libsyn.com", // podcasts
     "www.podtrac.com", // podcasts
@@ -29,15 +31,17 @@ module.exports = [
     "ap.spotify.com", // audio (access point)
     "*.ap.spotify.com", // resolved access points
     "apresolve.spotify.com", // access point resolving
-    "dealer.spotify.com", // discord rich presence
+    "dealer.spotify.com", // player activity (websocket)
     "image-upload.spotify.com", // image uploading
     "login*.spotify.com", // login
     "spclient.wg.spotify.com", // ads/tracking (blocked in blacklist), radio, recently played, friend activity,...
+    "audio-fa.spotifycdn.com", // audio
     "dcs*.megaphone.fm", // podcasts
     "traffic.megaphone.fm", // podcasts
+    "audio-ak-spotify-com.akamaized.net", // audio
+    "audio4-ak-spotify-com.akamaized.net", // audio
     "heads4-ak-spotify-com.akamaized.net", // audio (heads)
     "audio4-ak.spotify.com.edgesuite.net", // audio
+    "scontent*.fbcdn.net", // Facebook profile images
     "audio-sp-*.spotifycdn.net", // audio
-	"platform-lookaside.fbsbx.com", // facebook profile pics
-    "scontent.xx.fbcdn.net", // facebook profile pics
 ];
