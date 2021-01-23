@@ -44,4 +44,7 @@ module.exports = [
     "audio4-ak.spotify.com.edgesuite.net", // audio
     "scontent*.fbcdn.net", // Facebook profile images
     "audio-sp-*.spotifycdn.net", // audio
+    "clienttoken.spotify.com", // Client tokens and auth
+    "104.154.126.102", // Google Cloud Provider (might be tracking idk)
+    "35.190.245.221", // Google Cloud Provider (might be tracking idk)
 ];
