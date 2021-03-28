@@ -44,5 +44,6 @@ module.exports = [
     "audio4-ak.spotify.com.edgesuite.net", // audio
     "scontent*.fbcdn.net", // Facebook profile images
     "audio-sp-*.spotifycdn.net", // audio
+    "gew-spclient.spotify.com", // new mainpage and new search
     "clienttoken.spotify.com", // Client tokens and auth
 ];
