@@ -31,8 +31,8 @@ module.exports = [
     "ap.spotify.com", // audio (access point)
     "*.ap.spotify.com", // resolved access points
     "apresolve.spotify.com", // access point resolving
-    "dealer.spotify.com", // player activity (websocket)
-    "image-upload.spotify.com", // image uploading
+    "*dealer.spotify.com", // player activity (websocket)
+    "image-upload*.spotify.com", // image uploading
     "login*.spotify.com", // login
     "spclient.wg.spotify.com", // ads/tracking (blocked in blacklist), radio, recently played, friend activity,...
     "audio-fa.spotifycdn.com", // audio
@@ -45,4 +45,18 @@ module.exports = [
     "scontent*.fbcdn.net", // Facebook profile images
     "audio-sp-*.spotifycdn.net", // audio
     "clienttoken.spotify.com", // Client tokens and auth
+    "genius.com", // lyrics
+    "api*-desktop.musixmatch.com", // lyrics
+    "*.podbean.com", // podcasts
+    "dts.podtrac.com", // podcasts
+    "api.spotify.com", // queue
+    "api-partner.spotify.com", // album/artist pages
+    "seed-mix-image.spotifycdn.com", // mix images
+    "download.ted.com", // podcasts
+    "dovetail.prxu.org", // podcasts
+    "dovetail-cdn.prxu.org", // podcasts
+    "www.reddit.com", // Reddit content (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
+    "www.youtube.com", // YouTube entry (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
+    "i.ytimg.com", // YouTube thumbnail (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
+    "*.googlevideo.com" // YouTube video playback (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
 ];
