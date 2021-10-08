@@ -41,6 +41,8 @@ module.exports = [
     "audio-ak-spotify-com.akamaized.net", // audio
     "audio4-ak-spotify-com.akamaized.net", // audio
     "heads4-ak-spotify-com.akamaized.net", // audio (heads)
+    "audio-akp-spotify-com.akamaized.net", // audio
+    "audio4-akp-spotify-com.akamaized.net", // audio
     "audio4-ak.spotify.com.edgesuite.net", // audio
     "scontent*.fbcdn.net", // Facebook profile images
     "audio-sp-*.spotifycdn.net", // audio
