@@ -61,7 +61,7 @@ module.exports = [
     "www.youtube.com", // YouTube entry (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
     "i.ytimg.com", // YouTube thumbnail (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
     "*.googlevideo.com", // YouTube video playback (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
-    "104.199.65.124", // adblock detection (lyrics feature hidden if blocked)
+    "104.199.65.124", // adblock detection (Restricted usability of the Spotify client if blocked)
     "104.199.240.237", // adblock detection fallback 1
     "104.154.127.126" // adblock detection fallback 2
 ];
