@@ -35,6 +35,7 @@ module.exports = [
     "image-upload*.spotify.com", // image uploading
     "login*.spotify.com", // login
     "spclient.wg.spotify.com", // ads/tracking (blocked in blacklist), radio, recently played, friend activity,...
+    "gew1-spclient.spotify.com", // tracking (blocked in blacklist), player activity (play, pause, next, last, player sessions,...)
     "audio-fa.spotifycdn.com", // audio
     "dcs*.megaphone.fm", // podcasts
     "traffic.megaphone.fm", // podcasts
