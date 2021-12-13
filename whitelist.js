@@ -35,6 +35,7 @@ module.exports = [
     "image-upload*.spotify.com", // image uploading
     "login*.spotify.com", // login
     "spclient.wg.spotify.com", // ads/tracking (blocked in blacklist), radio, recently played, friend activity,...
+    "gew1-spclient.spotify.com", // tracking (blocked in blacklist), player activity (play, pause, next, last, player sessions,...)
     "audio-fa.spotifycdn.com", // audio
     "dcs*.megaphone.fm", // podcasts
     "traffic.megaphone.fm", // podcasts
@@ -60,5 +61,8 @@ module.exports = [
     "www.reddit.com", // Reddit content (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
     "www.youtube.com", // YouTube entry (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
     "i.ytimg.com", // YouTube thumbnail (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
-    "*.googlevideo.com" // YouTube video playback (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
+    "*.googlevideo.com", // YouTube video playback (https://github.com/khanhas/spicetify-cli/tree/master/CustomApps/reddit)
+    "104.199.65.124", // adblock detection (Restricted usability of the Spotify client if blocked)
+    "104.199.240.237", // adblock detection fallback 1
+    "104.154.127.126" // adblock detection fallback 2
 ];
