@@ -25,6 +25,6 @@
   "homepage": "https://github.com/Checkium/spotify-adblock-windows#readme",
   "dependencies": {
     "colors": "^1.3.3",
-    "http-mitm-proxy": "^0.8.1"
+    "http-mitm-proxy": "^1.0.0"
   }
 }
